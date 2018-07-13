@@ -42,7 +42,6 @@ class App extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this)
     this.openModal = this.openModal.bind(this);
-    this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
   
