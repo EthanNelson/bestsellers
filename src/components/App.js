@@ -82,7 +82,7 @@ class App extends React.Component {
     const { list } = this.state;
      return (     	
      	<div className="modal-container">      		
-    		<p className="nav">New York Times Combined Print and E-Book Fiction Bestseller List | </p>
+    		<p className="nav">New York Times Combined Print and E-Book Fiction Bestseller List</p>
        <div className="book-list">
        	{ list.map(list => 
        		<div className="book-container">
